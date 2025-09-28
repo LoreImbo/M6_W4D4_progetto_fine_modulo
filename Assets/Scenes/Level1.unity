@@ -17875,11 +17875,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1798071794654613395, guid: 8bbf15582d6c74f499a5dd59fb0728ce,
         type: 3}
-      propertyPath: coinManager
-      value: 
-      objectReference: {fileID: 35542396}
-    - target: {fileID: 1798071794654613395, guid: 8bbf15582d6c74f499a5dd59fb0728ce,
-        type: 3}
       propertyPath: _coinManager
       value: 
       objectReference: {fileID: 35542396}
@@ -17887,11 +17882,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Coin (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3158699585030069406, guid: 8bbf15582d6c74f499a5dd59fb0728ce,
-        type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7652161650225259298, guid: 8bbf15582d6c74f499a5dd59fb0728ce,
         type: 3}
