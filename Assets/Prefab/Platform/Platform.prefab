@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6535879901145328232}
   - component: {fileID: 7749376197247664648}
   - component: {fileID: 1260997356425866375}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -240,30 +240,30 @@ MonoBehaviour:
   - {x: -1, y: 0, z: 0, w: -1}
   - {x: -1, y: 0, z: 0, w: -1}
   m_Colors:
-  - {r: 1, g: 0.23497199, b: 0.010979338, a: 1}
-  - {r: 1, g: 0.23497199, b: 0.010979338, a: 1}
-  - {r: 1, g: 0.23497199, b: 0.010979338, a: 1}
-  - {r: 1, g: 0.23497199, b: 0.010979338, a: 1}
-  - {r: 1, g: 0.23497199, b: 0.010979338, a: 1}
-  - {r: 1, g: 0.23497199, b: 0.010979338, a: 1}
-  - {r: 1, g: 0.23497199, b: 0.010979338, a: 1}
-  - {r: 1, g: 0.23497199, b: 0.010979338, a: 1}
-  - {r: 1, g: 0.23497199, b: 0.010979338, a: 1}
-  - {r: 1, g: 0.23497199, b: 0.010979338, a: 1}
-  - {r: 1, g: 0.23497199, b: 0.010979338, a: 1}
-  - {r: 1, g: 0.23497199, b: 0.010979338, a: 1}
-  - {r: 1, g: 0.23497199, b: 0.010979338, a: 1}
-  - {r: 1, g: 0.23497199, b: 0.010979338, a: 1}
-  - {r: 1, g: 0.23497199, b: 0.010979338, a: 1}
-  - {r: 1, g: 0.23497199, b: 0.010979338, a: 1}
-  - {r: 1, g: 0.23497199, b: 0.010979338, a: 1}
-  - {r: 1, g: 0.23497199, b: 0.010979338, a: 1}
-  - {r: 1, g: 0.23497199, b: 0.010979338, a: 1}
-  - {r: 1, g: 0.23497199, b: 0.010979338, a: 1}
-  - {r: 1, g: 0.23497199, b: 0.010979338, a: 1}
-  - {r: 1, g: 0.23497199, b: 0.010979338, a: 1}
-  - {r: 1, g: 0.23497199, b: 0.010979338, a: 1}
-  - {r: 1, g: 0.23497199, b: 0.010979338, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
   m_UnwrapParameters:
     m_HardAngle: 88
     m_PackMargin: 20
@@ -272,7 +272,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 65
+  m_VersionIndex: 77
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -325,7 +325,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 25a9fb42d361f46ad89221f6d301e96e, type: 2}
+  - {fileID: 2100000, guid: baaf5a939cf624ddb9e7d0225f598fcf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
