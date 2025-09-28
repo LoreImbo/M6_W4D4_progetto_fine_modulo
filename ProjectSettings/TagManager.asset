@@ -9,6 +9,7 @@ TagManager:
   - Floor
   - Coin
   - Key
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
