@@ -5,6 +5,7 @@ public class CameraSwitcher : MonoBehaviour
 {
     [SerializeField] private CinemachineVirtualCamera cam1;
     [SerializeField] private CinemachineVirtualCamera cam2;
+    [SerializeField] private CinemachineVirtualCamera cam3;
 
     private CinemachineVirtualCamera activeCam;
 
@@ -18,20 +19,31 @@ public class CameraSwitcher : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.C)) // premi "C" per cambiare camera
         {
-            if (activeCam == cam1)
-                SetActiveCamera(cam2);
-            else
-                SetActiveCamera(cam1);
+            CycleCamera();
         }
+    }
+
+    void CycleCamera()
+    {
+        if (activeCam == cam1)
+            SetActiveCamera(cam2);
+        else if (activeCam == cam2)
+            SetActiveCamera(cam3);
+        else
+            SetActiveCamera(cam1);
     }
 
     void SetActiveCamera(CinemachineVirtualCamera newCam)
     {
+        // Metti tutte le camere a priorità bassa
         cam1.Priority = 0;
         cam2.Priority = 0;
+        cam3.Priority = 0;
 
-        newCam.Priority = 10; // la più alta diventa attiva
+        // Attiva la camera scelta
+        newCam.Priority = 10;
         activeCam = newCam;
     }
 }
+
 
